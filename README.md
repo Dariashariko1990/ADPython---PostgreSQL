@@ -1,16 +1,16 @@
-Работа с PostgreSQL
+#Работа с PostgreSQL
 
-Реализованы следующие функции для работы с таблицами:
-def create_db(): # создает таблицы
+##Реализованы следующие функции для работы с таблицами:
 
-def get_students(course_id): # возвращает студентов определенного курса
+- def create_db(): # создает таблицы
 
-def add_students(course_id, students): # создает студентов и 
-                                       # записывает их на курс
+- def get_students(course_id): # возвращает студентов определенного курса
 
-def add_student(student): # просто создает студента.
+- def add_students(course_id, students): # создает студентов и записывает их на курс
 
-def get_student(student_id):  # получение студента по id
+- def add_student(student): # просто создает студента
+
+- def get_student(student_id):  # получение студента по id
     
 Объекты "Студент" передаются в функцию в виде словаря. 
 
